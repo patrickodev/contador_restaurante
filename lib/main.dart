@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: _incrementCounter,
               child: Text(
                   '+',
-                  style:  TextStyle(fontSize: 30)
+                  style:  TextStyle(fontSize: 40)
               )
             ),
             RaisedButton(
@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: _decrementCounter,
               child: Text(
                   '-',
-                  style: TextStyle(fontSize: 30)
+                  style: TextStyle(fontSize: 40)
               )
             ),
           ],
